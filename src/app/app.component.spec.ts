@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ISIS2603-PP2-srodriguezs234'`, () => {
+  it(`should have as title 'Parcial2'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ISIS2603-PP2-srodriguezs234');
+    expect(app.title).toEqual('Parcial2');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ISIS2603-PP2-srodriguezs234');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, Parcial2');
   });
 });
